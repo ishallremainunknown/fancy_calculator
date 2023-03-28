@@ -1,0 +1,33 @@
+.card {
+  display: grid;
+  height: 600px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: black;
+  padding: 20px;
+  background-image: url(../src/img/5044561.jpg);
+  background-size: cover;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.35);
+}
+
+.buttons {
+  /* height: 50px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.display {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  overflow: hidden;
+  word-break: break-all;
+}
+.button {
+  background-color: #662854;
+}
